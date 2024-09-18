@@ -168,7 +168,7 @@ repositories {
 
 dependencies {
   api appProject
-  implementation platform("com.google.firebase:firebase-bom:${ReactNative.ext.getVersion("firebase", "bom")}")
+  implementation platform("com.google.firebase:firebase-bom:32.8.1")
   implementation "com.google.firebase:firebase-analytics"
 }
 
